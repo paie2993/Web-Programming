@@ -1,0 +1,106 @@
+div.content-text {
+    width: 85%;
+    height: 220pt;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+    div#interactive-shell {
+        padding-left: 17pt;
+        width: 50%;
+        height: 100%;
+        position: relative;
+        background-color: rgb(30,41,51);
+        box-shadow: 25pt 0pt 50pt 4pt inset rgb(25, 35, 43);
+        font-family: Consolas, sans-serif; 
+        font-size: 12pt;
+    }
+
+    span.shell {
+        white-space: pre;
+        letter-spacing: 0.8px;
+        line-height: 1.6;
+    }
+
+    span.python-comments {
+        color: #666;    
+    }
+
+    span.python-commands {
+        color: #11a611;
+    }
+
+    span.console-text {
+        color: #ddd; 
+        word-spacing: -2px;
+    }
+
+    a#shell-button {
+        border: 1pt solid rgb(202, 159, 40);
+        border-radius: 5pt;
+        padding: 10pt 7pt 7pt 10pt;
+        width: 16pt;
+        height: 18pt;
+        background-image: linear-gradient(to top, rgb(255,212,75), rgb(255,223,116));
+        position: absolute;
+        top: 15pt;
+        right: 18pt;
+    }
+
+    div#explanatory-text-wrapper {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(28,59,86);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div#explanatory-text {
+        padding: 0pt 30pt;
+        color: rgb(216, 216, 216);
+        font-size: 12.5pt;
+        font-family: SourceSansPro;
+        line-height: 1.5;
+    }
+
+    h2#explanatory-title {
+        color: rgb(255,211,67);
+        font-size: 17pt;
+    }
+
+    p#explanatory-content {
+        margin-top: -11pt;
+    }
+
+    ul#numbered-buttons {
+        margin: 15pt 0pt;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+        li.numbered-buttons-elem {
+            margin: 0pt 4pt;
+            border: 1pt solid rgb(66, 129, 180);
+            border-radius: 5px;
+            padding: 4pt 10pt;
+            background-image: linear-gradient(to top, rgb(39,83,120), rgb(45,97,141));
+            color: rgb(182, 182, 182);
+        }
+
+        li.numbered-buttons-elem:hover {
+            background-image: linear-gradient(to top, rgb(44,95,137), rgb(55,117,170));
+            color: rgb(255,211,67);
+        }
+
+span.golden-link {
+    color: rgb(255,211,67);
+    text-decoration: underline;
+    text-decoration-thickness: 1pt;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(255,211,67);
+}

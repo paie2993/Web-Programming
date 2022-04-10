@@ -1,0 +1,103 @@
+header.main-area-header {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#python-logo {
+    width: auto;
+    height: auto;
+}
+
+    img#python-img {
+        width: 210pt;
+        height: auto;
+    }
+
+div.meta-area {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+    a#donate-button {
+        margin: 3pt;
+        border: 1pt solid rgb(202, 159, 40);
+        border-radius: 5pt;
+        padding: 5pt 11pt;
+        background-image: linear-gradient(to top, rgb(255,212,75), rgb(255,223,116));
+        color: rgb(40, 40, 40);
+        display:inline;
+    }
+
+    div.search-area {
+        margin: 3pt;
+        border-top: 1pt solid rgb(46, 46, 46);
+        border-bottom: 1pt solid black;
+        border-radius: 5pt;
+        width: auto;
+        height: auto;
+        background-color: rgb(30,41,51);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        div.search-on-site {
+            border-right: 1pt solid black;
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+            label#magnifying-glass-symbol {
+                margin: 2pt 5pt 5pt 7pt;
+                width:auto;
+                height:auto;
+            }
+
+            label#magnifying-glass-symbol > img {
+                width: auto;
+                height: 25pt;
+            }
+
+            input#search-box {
+                margin: 6pt 2pt 8pt;
+                padding: 6pt;
+                width: 160pt;
+                height: 30pt;
+                color: rgb(155, 155, 155);
+            }
+
+            label#go-button-wrapper {
+                margin: 2pt 6pt 7pt;
+                width:auto;
+                height:auto;
+            }
+
+            a#go-button {
+                border: 1pt solid rgb(86, 165, 230);
+                border-radius: 5pt;
+                padding: 8pt 8pt;
+                background-image: linear-gradient(to top, rgb(49,105,152), rgb(55,118,171));
+                color: white;
+            }
+
+        a#socialize-label {
+            padding: 11pt 12pt;
+            border-left: 1pt solid grey;
+            border-right: 1pt solid black;
+            color: lightgrey;
+        }
+
+        a#socialize-label:hover {
+            background-color: rgb(207, 207, 207);
+            color:rgb(27, 27, 27);
+        }

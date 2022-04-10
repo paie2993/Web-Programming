@@ -1,0 +1,10 @@
+footer.subinfo {
+    margin-bottom: -7pt;
+    width: 53%;
+    height: auto;
+    font-family: 'Source Sans Pro';
+    font-size: 18pt;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(216, 216, 216);
+}

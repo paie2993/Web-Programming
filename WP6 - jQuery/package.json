@@ -1,0 +1,14 @@
+{
+  "name": "wp6---jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "2.3"
+  }
+}

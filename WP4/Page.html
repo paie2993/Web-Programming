@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Welcome to Python.org</title>
+        <link href="Resources/favicon.ico" type="image/icon type" rel="icon">
+
+        <link href="CSS-Files/skeleton.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/page-header.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/main-area.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/main-area-header.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/main-area-menu.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/main-area-content.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/main-area-footer.css" type="text/css" rel="stylesheet">
+        <link href="CSS-Files/sections.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header-div">
+            <ul class="header-list">
+                <li id="first-elem"><a>Python</a></li>
+                <li id="second-elem"><a>PSF</a></li>
+                <li id="third-elem"><a>Docs</a></li>
+                <li id="fourth-elem"><a>PyPI</a></li>
+                <li id="fifth-elem"><a>Jobs</a></li>
+                <li id="sixth-elem"><a>Community</a></li>
+            </ul>
+        </div>
+
+        <div class="main-area-div">
+            <header class="main-area-header">
+                <a id="python-logo">
+                    <img id="python-img" src="Resources/python-logo.png" alt="Python"/>
+                </a>
+                <div class="meta-area">
+                    <a id="donate-button">Donate</a>
+                    <div class="search-area">
+                        <div class="search-on-site">
+                            <label id="magnifying-glass-symbol" for="search-box">
+                                <img src="Resources/mag-img.png" alt="Search Python.org"/>
+                            </label>
+                            <input id="search-box" type="search" placeholder="Search">
+                            <label id="go-button-wrapper" for="search-box">
+                                <a id="go-button">GO</a>
+                            </label>
+                        </div>
+                        <a id="socialize-label">Socialize</a>
+                    </div>
+                </div>
+            </header>
+            
+            <ul class="content-horizontal-menu">
+                <li class="one-sided"><a>About</a></li>
+                <li class="dark-light"><a>Downloads</a></li>
+                <li class="dark-lightgrey"><a>Documentation</a></li>
+                <li class="lightgrey-light"><a>Communtity</a></li>
+                <li class="dark-lightgrey"><a>Success Stories</a></li>
+                <li class="lightgrey-light"><a>News</a></li>
+                <li class="dark-dark"><a>Events</a></li>
+            </ul>
+
+            <div class="content-text">
+                <div id="interactive-shell">
+                    <p><span class="python-comments shell"># Python 3: Fibonacci series up to n</span><br>
+                    <span class="python-commands shell">>>> def fib(n):</span><br>
+                    <span class="python-commands shell">>>>     a, b = 0, 1</span><br>
+                    <span class="python-commands shell">>>>     while a < n:</span><br>
+                    <span class="python-commands shell">>>>         print(a, end=' ')</span><br>
+                    <span class="python-commands shell">>>>         a, b = b, a+b</span><br>
+                    <span class="python-commands shell">>>>     print()</span><br>
+                    <span class="python-commands shell">>>> fib(1000)</span><br>
+                    <span class="console-text shell">0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</span></p>
+
+                    <a id="shell-button">>_</a>
+                </div>
+
+                <div id="explanatory-text-wrapper">
+                    <div id="explanatory-text">
+                        <h2 id="explanatory-title">Functions Defined</h2>
+                        <p id="explanatory-content">The core of extensible programming is defining functions. 
+                        Python allows mandatory and optional arguments, keyword arguments,
+                        and even arbitrary argument lists. <span class="golden-link">More about defining functions in
+                        Python 3</span></p>
+                    </div>
+
+                    <ul id="numbered-buttons">
+                        <li class="numbered-buttons-elem"><a>1</a></li>
+                        <li class="numbered-buttons-elem"><a>2</a></li>
+                        <li class="numbered-buttons-elem"><a>3</a></li>
+                        <li class="numbered-buttons-elem"><a>4</a></li>
+                        <li class="numbered-buttons-elem"><a>5</a></li>
+                    </ul>
+                </div>   
+            </div>
+            
+            <footer class="subinfo">
+                <p>Python is a programming language that lets you work quickly 
+                and integrate systems more effectively. 
+                <span class="golden-link">>>></span> <span class="golden-link">Learn More</span></p>
+            </footer>
+        </div>
+    
+        <div class="section-collection-container">
+            <section class="information-section-wrapper">
+                <div class="information">
+                    <div class="information-title-wrapper">
+                        <label for="get-started-header">
+                            <img class="section-label-img" src="Resources/get-started.png" alt="turn-on"/>
+                        </label>
+                        <h2 id="get-started-header">Get Started</h2>
+                    </div>
+                    <div class="information-content">
+                        <p>Whether you're new to programming or an 
+                        experienced developer, it's easy to learn and use Python.</p>
+                        <a class="information-hyperlink">Start with our Beginner's Guide</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="information-section-wrapper">
+                <div class="information">
+                    <div class="information-title-wrapper">
+                        <label for="download-header">
+                            <img class="section-label-img" src="Resources/download.png" alt="dewnload"/>
+                        </label>
+                        <h2 id="download-header">Download</h2>
+                    </div>
+                    <div class="information-content">
+                        <p>Python source code and installers are 
+                        available for download for all versions!</p>
+                        <p class="hyperlink-explanation">Latest: <a class="information-hyperlink">Python 3.10.2</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="information-section-wrapper">
+                <div class="information">
+                    <div class="information-title-wrapper">
+                        <label for="docs-header">
+                            <img class="section-label-img" src="Resources/docs.png" alt="docs"/>
+                        </label>
+                        <h2 id="docs-header">Docs</h2>
+                    </div>
+                    <div class="information-content">
+                        <p>Documentation for Python's standard library, 
+                        along with tutorials and guides, are available online.</p>
+                        <a class="information-hyperlink">docs.python.org</a>
+                    </div>  
+                </div>
+            </section>
+
+            <section class="information-section-wrapper">
+                <div class="information">
+                    <div class="information-title-wrapper">
+                        <label for="jobs-header">
+                            <img class=section-label-img src="Resources/jobs.png" alt="jobs"/>
+                        </label>
+                        <h2 id="jobs-header">Jobs</h2>
+                    </div>
+                    <div class="information-content">
+                        <p>Looking for work or have a Python related 
+                        position that you're trying to hire for? Our 
+                        <span id="jobs-information-section-emphs">relaunched community-run job board</span> 
+                        is the place to go.</p>
+                        <a class="information-hyperlink">jobs.python.org</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </body>
+</html>

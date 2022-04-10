@@ -1,0 +1,91 @@
+.page-div {
+    margin: 10px auto;
+    width: 70%;
+    height: auto;
+}
+
+.header-div {
+    margin: 10px auto;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    background-color: lightblue;
+    height: 10%;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+.menu-div {
+    margin: 10px;
+    outline: 1px solid red;
+    outline-offset: 2px;
+    padding: 10px;
+    background-color: lightgrey;
+    width: 20%;
+    height: 500px;
+	float: left;
+}
+
+.menu-div h2 {
+    margin-left: 60px;
+}
+
+.vertical-menu {
+    list-style-type: none;
+}
+
+
+.vertical-menu a {
+    display: inline;
+}
+
+.vertical-menu > li {
+    margin: 20px;
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.vertical-menu > li > ul {
+    list-style-type: none;
+
+    display: none;
+    position: absolute;
+}
+
+.vertical-menu > li > a:hover {
+    background-color: lightblue;
+}
+
+.vertical-menu > li:hover > ul {
+    display: inline;
+}
+
+.vertical-menu > li > ul > li {
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+
+    display: inline;
+}
+
+.vertical-menu > li > ul > li:hover {
+    background-color: lightblue;
+}
+
+.content-div {
+    margin: 10px 0px 0px;
+    background-color: lightgoldenrodyellow;
+    width: 75%;
+    height: 500px;
+	padding: 10px;
+	float: left;		
+	text-align: justify;
+    font-size: 25px;
+    font-family: 'Lucida Sans'
+}

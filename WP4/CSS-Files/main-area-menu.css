@@ -1,0 +1,48 @@
+ul.content-horizontal-menu {
+    margin-bottom: 1pt;
+    border-top: 1pt solid rgb(87, 155, 211);
+    border-bottom: 1pt solid rgb(24, 65, 99);
+    border-radius: 8px;
+    background-image: linear-gradient(to top, rgb(45,97,140), rgb(55,118,171));
+    width: 96%;
+    height: auto;
+    box-shadow: 0pt 0pt 3pt 0pt rgb(46, 60, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    list-style-type: none;
+}
+
+    ul.content-horizontal-menu > li {
+        padding: 11pt 16pt;
+        color: white;
+        font-size: 14pt;
+    }
+
+    ul.content-horizontal-menu > li:hover {
+        background-color: rgb(50, 103, 146);
+    }
+
+    .one-sided {
+        border-right: 0.7pt solid rgb(71, 130, 185);
+    }
+
+    .dark-light {
+        border-left: 0.7pt solid rgb(39, 64, 87);
+        border-right: 0.7pt solid rgb(71, 130, 185);
+    }
+
+    .dark-lightgrey {
+        border-left: 0.7pt solid rgb(39, 64, 87);
+    }
+
+    .lightgrey-light {
+        border-left: 0.7pt solid rgb(87, 87, 87);
+        border-right: 0.7pt solid rgb(71, 130, 185);
+    }
+
+    .dark-dark {
+        border-left: 0.7pt solid rgb(87, 87, 87);
+        border-right: 0.7pt solid rgb(87, 87, 87);;
+    }

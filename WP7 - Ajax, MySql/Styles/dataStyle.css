@@ -1,0 +1,48 @@
+h1, #formDiv, #fetchDiv, #displayDiv {
+    margin: 10px 20px;
+}
+
+.in {
+    width: 300px;
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.controls {
+    width: 300px;
+    height: auto;
+    margin: 15px 0px;
+}
+
+div.spacing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+div.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input.subButton {
+    width: 70px;
+    height: auto;
+}
+
+button#fetchButton {
+    width: 70px;
+    height: auto;
+}

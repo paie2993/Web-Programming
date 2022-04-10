@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Browse Recipes</title>
+        
+        <script src="..\Scripts\jquery-2.0.3.js"></script>
+        <script src="..\Scripts\browseScript.js" type="text/javascript" defer></script>
+
+        <link rel="stylesheet" href="../Styles/browseStyle.css">
+
+    </head>
+    <body>
+        <h1>Browse Recipes:</h1>
+        <button type="button" id="allButton">All Recipes</button>
+        
+        <div class="pseudoForm">
+            <label for="idSearch">ID: </label>
+            <input id="idSearch" class="inputBox" type="text" name="idBox" title="ex. 12345" maxlength="5">
+            <input id="idSubmit" type="submit" name="idSubmit" value="Submit">
+        </div>
+
+        <div class="pseudoForm">
+            <label for="authorSearch">Author: </label>
+            <input id="authorSearch" class="inputBox" type="text" name="authorBox" title="ex. John Doe" maxlength="50">
+            <input id="authorSubmit" type="submit" name="authorSubmit" value="Submit">
+        </div>
+        
+        <div class="pseudoForm">
+            <label for="nameSearch">Name: </label>
+            <input id="nameSearch" class="inputBox" type="text" name="nameBox" maxlength="50">
+            <input id="nameSubmit" type="submit" name="nameSubmit" value="Submit">
+        </div>
+
+        <div class="pseudoForm">
+            <label for="typeSearch">Type: </label>
+            <input id="typeSearch" class="inputBox" type="text" name="typeBox" maxlength="50">
+            <input id="typeSubmit" type="submit" name="typeSubmit" value="Submit">
+        </div>
+
+        <!-- <form id="descForm">
+            <label for="descSearch">Description: </label>
+            <input id="descSearch" class="inputBox" type="text" name="descBox" maxlength="50" required>
+            <input id="descSubmit" type="submit" name="descSubmit" value="Submit">
+        </form> -->
+        <div id="previousFilter"><p>Hello!</p></div>
+        <div id="browseResults"></div>
+    </body>
+
+</html>

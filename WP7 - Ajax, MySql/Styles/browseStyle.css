@@ -1,0 +1,23 @@
+.pseudoForm {
+    margin: 10px 0px 10px;
+}
+
+label {
+    display: block;
+}
+
+.inputBox {
+    width: 300px;
+}
+
+input.inputBox {
+    height: 30px;
+}
+
+table {
+    width: 50%;
+}
+
+div#previousFilter {
+    visibility: hidden;
+}

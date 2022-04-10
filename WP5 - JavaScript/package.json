@@ -1,0 +1,14 @@
+{
+  "name": "wp5---javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Script.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

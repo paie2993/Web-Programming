@@ -1,0 +1,54 @@
+div.header-div {
+    border-bottom: 1pt solid black;
+    background-color: rgb(30, 41, 51);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-list {
+    margin: 0pt auto;
+    border-bottom: 1pt solid #1f3b47;
+    display: flex;
+    justify-content: center;
+    font-family: 'Pythonicon';
+    list-style-type: none;
+}
+
+.header-list > li {
+    padding: 7pt 60pt;
+    border-top-style: solid;
+    border-top-width: 2.75pt;
+    border-left: 0.5pt solid rgb(53, 53, 53);
+    border-right: 0.5pt solid black;
+    display: inline;
+    vertical-align: middle;
+    font-size: 13pt;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    color: rgb(168, 168, 168);
+}
+
+#first-elem {
+    border-top-color: #3776ab;
+}
+
+#second-elem {
+    border-top-color: #78797a;
+}
+
+#third-elem {
+    border-top-color: #ffd343;
+}
+
+#fourth-elem {
+    border-top-color: #82b043;
+}
+
+#fifth-elem {
+    border-top-color: #a06ba7;
+}
+
+#sixth-elem {
+    border-top-color: #b55863;
+}

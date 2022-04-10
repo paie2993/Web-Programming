@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Change Recipes</title>
+
+        <link rel="stylesheet" type="text/css" href="../Styles/dataStyle.css">
+
+        <script src="../Scripts/jquery-2.0.3.js"></script>
+        <script src="../Scripts/dataScript.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <h1>Add Recipes:</h1>
+
+        <div id="formDiv">
+            <form method="POST" target="_self">
+                <div class="controls spacing">
+                    <label for="firstInput">ID: </label>
+                    <input id="firstInput" class="in" type="text" name="id" pattern="[1-9]{1}[0-9]{0,4}" maxlength="5" title="ex 12345" autofocus>
+                </div>
+                <div class="controls spacing">
+                    <label for="secondInput">Author: </label>
+                    <input id="secondInput" class="in" type="text" name="author" pattern="[A-Z]{1}[ \.\-a-zA-Z]{0,49}" maxlength="50" title="ex John Doe">
+                </div>
+                <div class="controls spacing">
+                    <label for="thirdInput">Name: </label>
+                    <input id="thirdInput" class="in" type="text" name="name" pattern="[A-Z]{1}[ \.\-&a-zA-Z]{0,49}" maxlength="50" title="ex Pizza Mozarella">
+                </div>
+                <div class="controls spacing">
+                    <label for="fourthInput">Type: </label>
+                    <input id="fourthInput" class="in" type="text" name="type" pattern="[A-Z]{1}[a-z]{0,24} ?[a-z]{0,24}" maxlength="50" title="ex Curry">
+                </div>
+                <div class="controls spacing">
+                    <label for="fifthInput">Description: </label>
+                    <textarea id="fifthInput" class="in" name="description" maxlength="255" title="First, peel the potatos ... "></textarea>
+                </div>
+                <div class="controls buttons">
+                    <input class="subButton" type="submit" name="addButton" value="Add" formaction="../PhpScripts/postRecipe.php">
+                    <input class="subButton" type="submit" name="deleteButton" value="Remove" formaction="../PhpScripts/deleteRecipe.php">
+                    <input class="subButton" type="submit" name="updateButton" value="Update" formaction="../PhpScripts/updateRecipe.php">
+                </div>
+            </form>
+        </div>
+        <div id="fetchDiv">
+            <button id="fetchButton" type="button">Load</button></a>
+        </div>
+        <div id="displayDiv"></div>
+    </body>
+</html>

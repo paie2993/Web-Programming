@@ -1,0 +1,14 @@
+div.main-area-div {
+    border-top: 0.5px solid rgb(63, 81, 129);
+    border-bottom: 1pt solid black;
+    padding: 15pt 120pt 0pt;
+    width: auto;
+    height: 405pt;
+    background-image: linear-gradient(to bottom, rgb(30,63,92), rgb(42,89,129));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
